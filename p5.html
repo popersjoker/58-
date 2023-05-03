@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            function Css(obj, attr) {
+                if (obj.currentStyle) {
+                    return obj.currentStyle[attr];
+                }
+                else return getComputedStyle(obj, false)[attr];
+            }
+
+            var html = document.getElementsByTagName('body')[0];
+            //ChildrenNode所有的子节点包括文本
+            //Children 不包括文本
+            console.log(html.children);
+            function Rset(obj) {
+                var ch = obj.children;
+                if (ch.length) {
+                    obj.style.borderWidth = '0';
+                }
+                var pw = parseFloat(Css(obj, 'width'));
+                var ph = parseFloat(Css(obj, 'height'));
+                for (var i = 0; i < ch.length; i++) {
+                    var wd = ch[i].style.width;
+                    var hd = ch[i].style.height;
+                    var bw = parseFloat(Css(ch[i], 'borderWidth')) * 2;
+                    if (wd != "" && wd[wd.length - 1] == "%") {
+                        var tw = parseFloat(wd);
+                        ch[i].style.width = Math.floor((pw - bw) * tw - 1000) / pw + "%";
+                    }
+                    if (hd != "" && hd[hd.length - 1] == '%') {
+                        var th = parseFloat(hd);
+                        ch[i].style.height = Math.ceil((ph - bw) * th - 1) / ph + "%";
+                    }
+                    Rset(ch[i]);
+
+                }
+
+            }
+            Rset(html);
+        }
+
+
+    </script>
+    <style>
+        body {
+            background-color: black;
+            display: table;
+            white-space: -1em;
+            font-size: 0;
+
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        article,
+        aside,
+        footer,
+        header {
+            background-color: white;
+            border-spacing: 0;
+            /* margin: -1px; */
+            font-size: 12px;
+            text-align: center;
+            /* border: 1px solid blue; */
+            display: inline-block;
+            vertical-align: top;
+            /* box-sizing: border-box; */
+        }
+
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="
+    width: 100%;
+    height: 20%;
+">
+        Hello,World!
+    </header>
+    <aside style="
+    height: 70%;
+    width: 30%;
+    /* display:  inline-block; */
+">
+        Hello,World!
+    </aside>
+    <article style="
+    width: 70%;
+    height: 70%;
+">
+        <article style="
+    width: 100%;
+    height: 50%;
+">
+            <article style="
+    width: 50%;
+    height: 100%;
+">Hello,World</article>
+            <article style="
+    width: 50%;
+    height: 100%;
+">Hello,World</article>
+        </article>
+        <article style="
+    height: 50%;
+    width: 100%;
+">Hello,World</article>
+    </article>
+    <footer style="
+    width: 100%;
+    height: 10%;
+">Hello,World</footer>
+
+
+
+
+</body>

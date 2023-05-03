@@ -1,0 +1,1284 @@
+#header {
+    height: 33px;
+    /* width: 1190px; */
+    background-color: #f5f5f5;
+    padding-left: 198px;
+    padding-right: 100px;
+}
+
+.weather {
+    float: left;
+    margin-left: 10px;
+    display: line-block !important;
+    width: 300px;
+    height: 33px;
+}
+
+.weather .w_ico {
+    height: 20px;
+    width: 20px;
+}
+
+.city {
+    float: left;
+    color: black;
+    font-size: 12px;
+    line-height: 33px;
+    width: 100px;
+    display: line-block !important;
+}
+
+#header span {
+    float: left;
+    margin-left: 10px;
+    height: 33px;
+    font-size: 12px;
+    line-height: 33px;
+    cursor: pointer;
+    color: black;
+}
+
+.reg, .log, .help, .mobile, .center, .s123, .s321 {
+    text-decoration: none;
+    float: left;
+    display: block;
+    /* text-align: center; */
+}
+
+.reg, .log, .help, .mobile, .center {
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 33px;
+}
+
+.header_r {
+    float: right;
+    width: 410.18px;
+    height: 33px;
+    padding: 0 10px;
+}
+
+.reg {
+    width: 73.14px;
+    height: 32.8px;
+}
+
+.log {
+    width: 88px;
+    height: 32.8px;
+}
+
+.help {
+    width: 59px;
+    height: 32.8px;
+}
+
+.mobile {
+    width: 80px;
+    height: 32.8px;
+}
+
+.center {
+    width: 68px;
+    height: 32.8px;
+}
+
+i {
+    color: black;
+    float: left;
+}
+
+.cf {
+    width: 1190px;
+    height: 109px;
+}
+
+.tab {
+    width: 860px;
+    height: 142px;
+}
+
+.content {
+    width: 1190px;
+    height: 1142px;
+}
+
+.ccol {
+    width: 250px;
+    height: 34290px;
+}
+
+.ccal {
+    width: 610px;
+    height: 34391px;
+}
+
+.cdao {
+    width: 330px;
+    height: 34341px;
+}
+
+.tsearch {
+    width: 980px;
+    height: 109px;
+    float: left;
+    padding-left: 200px;
+}
+
+.search {
+    width: 1190px;
+    height: 109px;
+    padding-top: 28px;
+    /* position: absolute; */
+    /* z-index: 4; */
+    float: left;
+}
+
+.gjlogo, .search-ico {
+    background-image: url(gj.logo.png);
+    background-repeat: no-repeat;
+}
+
+.gjlogo {
+    width: 135px;
+    height: 45px;
+    background-position: -24px -76px;
+    margin: 0 8px 0 40px;
+}
+
+.gjlogo, .gjadvert {
+    position: relative;
+    top: -2px;
+    display: block;
+    float: left;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.gjadvert img {
+    width: 130px;
+    height: 36px;
+    display: block;
+}
+
+.sform {
+    width: 620px;
+    height: 68px;
+    float: left;
+}
+
+.clearfix {
+    width: 620px;
+    height: 42px;
+    display: block;
+    float: left;
+}
+
+.clearfix ::after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.search-ico {
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    display: block;
+    top: 41px;
+    left: 325px;
+    background-position: -209px -239px;
+}
+
+.text-search {
+    float: left;
+    width: 493px;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    color: #1b1b1b;
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+    text-indent: 30px;
+    border: 3px solid #39bc30;
+    border-right: 0;
+}
+
+.btn-s {
+    position: absolute;
+    z-index: -10;
+    width: 121px;
+    height: 42px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #39bc30;
+    cursor: pointer;
+}
+
+.hot-word a {
+    margin-right: 12px;
+    font-size: 12px;
+    color: #666
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-post {
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ff7a00;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-post, .btn-del {
+    display: block;
+    text-align: center;
+    margin: 0 40px 0 0;
+}
+
+.btn-del {
+    line-height: 26px;
+    font-size: 12px;
+    color: black;
+}
+
+.btn-del :visited {
+    color: yellowgreen;
+}
+
+.btn-del :hover {
+    text-decoration: underline;
+    color: red;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+/* 他妈的:和hover必须紧挨什么垃圾判定，连空格都判不了的垃圾语言 */
+
+.btn-del:hover {
+    color: red;
+}
+
+.tab-category .tabIcon {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 48px;
+    background-image: url(mimang.png);
+    background-repeat: no-repeat;
+}
+
+.tab-category .dt-t {
+    height: 86px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.tab-category .dt {
+    /* float: left; */
+    width: 120px;
+    height: 86px;
+    text-align: center;
+    position: relative;
+}
+
+.tab-category {
+    float: left;
+    width: 120px;
+    height: 128px;
+    text-align: center;
+    position: relative;
+}
+
+.tab-category .tabIcon-1 {
+    background-position: -35px -44px;
+}
+
+.tab-category .tabIcon-2 {
+    background-position: -235px -44px;
+}
+
+.tab-category .tabIcon-3 {
+    background-position: -435px -44px;
+}
+
+.tab-category .tabIcon-4 {
+    background-position: -635px -44px;
+}
+
+.tab-category .tabIcon-5 {
+    background-position: -835px -44px;
+}
+
+.tab-category .tabIcon-6 {
+    background-position: -1035px -44px;
+}
+
+.tab-category .tabIcon-7 {
+    background-position: -1235px -44px;
+}
+
+.tab-category .dt a {
+    font-size: 16px;
+}
+
+.tab-category .dd {
+    /* float: left; */
+    /* width: 120px; */
+    height: 42px;
+    line-height: 42px;
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.tab-category .dd a {
+    padding: 1px 6px;
+    margin: 0 3px;
+    font-size: 12px;
+    background-color: #eaf4f9;
+    border-radius: 45px;
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tab-nav {
+    border-top: 10px solid #f5f5f5;
+    border-bottom: 10px solid #f5f5f5;
+    border-right: 10px solid #f5f5f5;
+    position: relative;
+}
+
+.tab-nav-l {
+    width: 850px;
+    height: 132px;
+    padding: 2px 5px;
+}
+
+.tab-more {
+    width: 330px;
+    height: 132px;
+}
+
+.tab1 {
+    width: 308px;
+    height: 11px;
+    padding: 11px 0;
+    /* height: 11px; */
+    position: relative;
+    zoom: 1;
+    background: #f8fcf4;
+    font-size: 14px;
+    color: #39bc30;
+    line-height: 14px;
+    text-align: center;
+    text-indent: -15px;
+    border: 1px solid #f8fcf4;
+    border-bottom: 0px none white;
+    z-index: auto;
+}
+
+.name img {
+    float: left;
+    height: 29px;
+    margin-right: 5px;
+}
+
+.iphone_ico {
+    background: url(ls.gif) no-repeat;
+    width: 30px;
+    height: 36px;
+    float: left;
+    position: absolute;
+    top: 0;
+}
+
+.tab-list-con {
+    width: 328px;
+    height: 97px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.tab-list {
+    width: 990px;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.tab-item {
+    padding: 25px 16px;
+    width: 302px;
+    height: 46px;
+    float: left;
+    cursor: pointer;
+}
+
+.txt {
+    float: left;
+    width: 190px;
+    overflow: hidden;
+}
+
+.imgleft {
+    margin: 2px 16px 0 0;
+    padding: 0 14px 0 16px;
+    width: 42px;
+    height: 44px;
+    float: left;
+    border-right: 1px solid #f5f5f5;
+}
+
+.name {
+    position: relative;
+    line-height: 29px;
+    font-size: 12px;
+    color: #ff7200;
+}
+
+.title {
+    margin-top: 2px;
+    width: 190px;
+    color: #161616;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.s-line1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content-tab {
+    width: 1190px;
+    height: 142px;
+    position: relative;
+    z-index: -5;
+    margin-left: 200px;
+}
+
+.tab-nav-r {
+    width: 310px;
+    height: 136px;
+}
+
+body {
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: -100;
+}
+
+.occupy {
+    height: 109px;
+    width: 1180px;
+    position: relative;
+    z-index: -5;
+    margin-left: 200px;
+}
+
+#header, .occupy, .content-tab, .content-1, .gje {
+    background-color: #fff;
+}
+
+.tsearch {
+    margin-left: -200px;
+}
+
+.tab1:hover {
+    background: red;
+    color: #fff;
+}
+
+.content-1 {
+    margin-left: 200px;
+    /* float: left; */
+    width: 1181.8px;
+    height: 1642px;
+    overflow: hidden;
+    /* background-color: black; */
+}
+
+.col-1 {
+    /* float: left; */
+    width: 240px;
+    float: left;
+    height: 34322px;
+    /* background-color: red; */
+    border-right: 10px solid #f5f5f5;
+}
+
+.category-1 h3 {
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    border-bottom: 1px solid #f9f9f9;
+    margin-bottom: 7px;
+}
+
+.house {
+    position: relative;
+    height: 248px;
+    /* background-color: yellow; */
+}
+
+.category-1 {
+    padding: 0px 8px 13px 13px;
+    border-bottom: 10px solid #f5f5f5;
+}
+
+.loadapp {
+    /* margin-top: -10px; */
+    height: 45px;
+    color: #39bc30;
+    line-height: 30px;
+    cursor: pointer;
+    background-color: #f8fcf4;
+    border-bottom: 10px solid #f5f5f5;
+}
+
+.secondhand-car {
+    height: 431px;
+    /* background-color: rgb(4, 129, 228); */
+}
+
+.newcar {
+    height: 239px;
+    /* background-color: skyrgb(4, 129, 228); */
+}
+
+.car-service {
+    height: 239px;
+    /* background-color: gainsboro; */
+}
+
+.zhaoshang {
+    height: 360px;
+    /* background-color: gold; */
+}
+
+.f12 {
+    color: red;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    /* float: right; */
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 8px;
+}
+
+.clearfix-2 {
+    height: 32px;
+}
+
+.clearfix-2 a {
+    font-size: 14px;
+    margin-right: 4px;
+    line-height: 32px;
+    display: inline-block;
+    color: rgb(4, 129, 228);
+    display: inline-block;
+}
+
+.clearfix-2:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.goapp {
+    margin-right: 10px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url(gj.logo.png);
+    background-repeat: no-repeat;
+    background-position: -210px -183px;
+}
+
+.loadapp:hover .goapp {
+    background-position: -256px -183px;
+}
+
+.loadapp:hover {
+    background-color: green;
+}
+
+.col-2 {
+    float: left;
+    width: 600px;
+    height: 32620px;
+    position: relative;
+    border-right: 10px solid #f5f5f5;
+}
+
+.clearfix-1 a {
+    width: 15%;
+    display: inline-block;
+    line-height: 30px;
+    color: rgb(4, 129, 228);
+    /* margin-right: 40px; */
+}
+
+.remengongzuo {
+    display: inline-block;
+    width: 335px;
+}
+
+.remengongzuo h4 span {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.confind a {
+    display: block;
+    float: left;
+    width: 24.8%;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(4, 129, 228);
+}
+
+.fuwu {
+    float: right;
+    width: 244px;
+}
+
+.hungry a {
+    display: block;
+    width: 33.3%;
+    font-size: 14px;
+    float: left;
+    line-height: 30px;
+    color: rgb(4, 129, 228);
+}
+
+.r10 a {
+    width: auto;
+    margin-right: 10px;
+}
+
+.small-tit {
+    width: 80px;
+    display: inline-block;
+}
+
+.divs {
+    margin-right: 10px;
+}
+
+.clearfix-2 a {
+    /* width: 15%; */
+    display: inline-block;
+    line-height: 30px;
+    color: rgb(4, 129, 228);
+}
+
+.last {
+    border-right: 10px solid #f5f5f5;
+}
+
+.daojia {
+    font-size: 16px;
+    line-height: 47px;
+    margin: 0 12px;
+    color: #333;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.col-3 {
+    width: 321px;
+    height: 33181px;
+    float: left;
+    /* background-color: green; */
+}
+
+.list-wrap {
+    position: relative;
+    padding: 0;
+    width: 330px;
+    height: 156px;
+    overflow: hidden;
+}
+
+.listwrap {
+    width: 300px;
+    margin: 16px 15px;
+    height: 76px;
+    overflow: hidden;
+}
+
+.list {
+    height: 76px;
+    width: 600px;
+    text-align: center;
+    left: 0;
+    position: relative;
+}
+
+.item {
+    float: left;
+    width: 60px;
+    height: 76px;
+    text-align: center;
+}
+
+.item img {
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 0;
+}
+
+.pagenum, .nextbtn, .prevbtn, .active {
+    background-image: url(gj.logo.png);
+    background-repeat: no-repeat;
+    top: 87px;
+}
+
+.nextbtn {
+    position: absolute;
+    /* display: none; */
+    right: 10px;
+    width: 14px;
+    height: 30px;
+    background-position: -91px -23px;
+}
+
+.prevbtn {
+    position: absolute;
+    /* display: none; */
+    left: 0px;
+    width: 14px;
+    height: 30px;
+    background-position: -71px -23px;
+}
+
+.prevbtn:hover {
+    background-color: green;
+}
+
+.nextbtn:hover {
+    background-color: green;
+}
+
+.pagenum {
+    margin: 0 3px;
+    float: left;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: 20px;
+    background-position: -259px -243px;
+}
+
+.active {
+    background-position: -247px -243px;
+}
+
+.item span {
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.col-3 .list a {
+    color: #0481e4;
+}
+
+.wipepage {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.col-3 .small-tit {
+    width: 66px;
+}
+
+.col-3 .sdiv {
+    width: 238px;
+}
+
+.col-3 .sdiv a {
+    margin-right: 10px;
+}
+
+.clearfix-3 {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.clearfix-3 a {
+    color: rgb(4, 129, 228);
+}
+
+.col-3 h3 {
+    line-height: 48px;
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 7px;
+}
+
+.gje {
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 1160px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.gjr {
+    width: 420px;
+}
+
+.tool {
+    float: left;
+    margin: 0 15px 13px 15px;
+}
+
+.life-helper {
+    margin: 0 24px 13px;
+    width: 350px;
+}
+
+.application {
+    width: 280px;
+}
+
+#footer {
+    /* margin-top: 50px; */
+    /* margin-left: 300px; */
+    height: 270px;
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    left: 200px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+    text-align: center;
+}
+
+#footer dd:hover {
+    text-decoration: underline;
+}
+
+#footer dt:hover {
+    text-decoration: underline;
+}
+
+.ddd {
+    margin-left: 200px;
+}
+
+.f-area2 {
+    padding: 19px 0 21px;
+}
+
+.gj-info {
+    margin-top: 13px;
+    text-align: center;
+}
+
+.gje li a {
+    /* margin-left: 200px; */
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: relative;
+    background-image: url(lis.png);
+    background-repeat: no-repeat;
+}
+
+.icon1 {
+    background-position: 0 8px;
+}
+
+.icon2 {
+    background-position: 0 -72px;
+}
+
+.icon3 {
+    background-position: 0 -152px;
+}
+
+.icon4 {
+    background-position: 0 -232px;
+}
+
+.icon5 {
+    background-position: 0 -312px;
+}
+
+.icon6 {
+    background-position: 0 -392px;
+}
+
+.icon7 {
+    background-position: 0 -472px;
+}
+
+.icon8 {
+    background-position: 0 -552px;
+}
+
+.icon10 {
+    background-position: 0 -632px;
+}
+
+.icon11 {
+    background-position: 0 -712px;
+}
+
+.icon12 {
+    background-position: 0 -792px;
+}
+
+.ic1 {
+    background-position: 0 -872px;
+}
+
+.ic2 {
+    background-position: 0 -952px;
+}
+
+.ic3 {
+    background-position: 0 -1032px;
+}
+
+.ic4 {
+    background-position: 0 -1112px;
+}
+
+.ic5 {
+    background-position: 0 -1192px;
+}
+
+.ic6 {
+    background-position: 0 -1272px;
+}
+
+.ic7 {
+    background-position: 0 -1352px;
+}
+
+.ic8 {
+    background-position: 0 -1432px;
+}
+
+.ic9 {
+    background-position: 0 -1502px;
+}
+
+.ic10 {
+    background-position: 0 -1582px;
+}
+
+.what1 {
+    background-position: 0 -1662px;
+}
+
+.what2 {
+    background-position: 0 -1742px;
+}
+
+.what3 {
+    background-position: 0 -1822px;
+}
+
+.what4 {
+    background-position: 0 -1902px;
+}
+
+.what5 {
+    background-position: 0 -1982px;
+}
+
+.what6 {
+    background-position: 0 -2162px;
+}
+
+.what7 {
+    background-position: 0 -2242px;
+}
+
+.gje li {
+    width: 70px;
+    height: 70px;
+    float: left;
+    display: block;
+    margin: 4px 0;
+}
+
+.gje h3 {
+    line-height: 48px;
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 7px;
+}
+
+.gje li span {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    line-height: 22px;
+    left: 0;
+}
+
+.dls {
+    margin-top: 50px;
+    width: 160px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 800;
+    color: #000;
+    display: block;
+    float: left;
+    /* padding-top: 50px; */
+}
+
+.dls dt {
+    margin-bottom: 20px;
+}
+
+.dls dd {
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+
+.gj-info .beianxinxi {
+    width: 125px;
+    background-position: -111px 0;
+}
+
+.gj-info .xinyongqiye {
+    width: 126px;
+    background-position: -242px 0;
+}
+
+.gj-info .jubaozhongxin {
+    width: 166px;
+    background-position: -374px 0;
+}
+
+.gj-info a {
+    margin: 0 3px;
+    display: inline-block;
+    height: 37px;
+    background-image: url(pingz.png);
+}
+
+.ftext a {
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+}
+
+.content-1 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.dt-t:hover {
+    color: red;
+}
+
+.dd a:hover {
+    background-color: #39bc30;
+}
+
+.dt .tabIcon:hover {
+    height: 58px;
+    /* background-color: yellow; */
+}
+
+.hot-word a:hover {
+    text-decoration: underline;
+}
+
+.gje a:hover {
+    background-color: #f7f7f7;
+    text-decoration: underline;
+}
+
+.ftext a:hover {
+    text-decoration: underline;
+}
+
+.hid {
+    display: none;
+    /* display: none; */
+    position: relative;
+}
+
+.hid .logs {
+    position: relative;
+    left: -8px;
+    /* top: 34px; */
+    background-color: #fff;
+    display: block;
+    width: 63px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.hid a:hover {
+    background-color: #f5f5f5;
+    text-decoration: underline;
+}
+
+.hidb {
+    /* display: none; */
+    width: 1177px;
+    height: 304px;
+    float: left;
+    position: relative;
+    left: -1094px;
+    background-color: white;
+}
+
+.feiwu {
+    position: absolute;
+    left: 30px;
+}
+
+.dlt {
+    top: 20px;
+    display: inline-block;
+    width: 60px;
+    margin-right: 15px;
+    font-size: 13px;
+    position: relative;
+    vertical-align: top;
+    /* left: -354px; */
+    /* height: ; */
+}
+
+.ds {
+    margin-bottom: 10px;
+    font-weight: 400;
+    display: inline-block;
+    color: #999;
+}
+
+.dtr {
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #39bc40;
+}
+
+.dlt i {
+    display: inline-block;
+}
+
+.icon-1 {
+    background-image: url(gj1.png);
+    width: 70px;
+    height: 70px;
+}
+
+.icon-2 {
+    background-image: url(gj2.png);
+    width: 70px;
+    height: 70px;
+}
+
+.spe dt {
+    margin-bottom: 30px;
+}
+
+.dlt .spe .ds {
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+}
+
+.spe dd {
+    width: 70px;
+    height: 80px;
+    margin-right: 40px;
+}
+
+.icon-3 {
+    background-image: url(gj3.png);
+    width: 70px;
+    height: 70px;
+    /* margin-right: 10px; */
+}
+
+.hidb dt:hover {
+    text-decoration: underline;
+}
+
+.hidb dd:hover {
+    text-decoration: underline;
+}
+
+/* .prevbtn:hover { */
+
+/* background-color: gold; */
+
+/* } */
+
+/* .remenheight { */
+
+/* height: 212px; */
+
+/* } */
+
+/* 我吐了：之前也不能加空格 */
